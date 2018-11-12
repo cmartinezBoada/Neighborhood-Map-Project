@@ -1,10 +1,10 @@
 # Neighborhood Map Project
 In this project it is developped a single page application featuring a map of a neighborhood.
-The project adds functionality to this map including highlighted locations and third-party data about to these locations 
+The project adds functionality to this map including highlighted locations and third-party data about to these locations
 
 ## Getting started:
-1. Download or clone the project: (https://github.com/cmartinezBoada/Neighborhood-Map-Project.git). 
-2. Open index.html in your browser. 
+1. Download or clone the project: (https://github.com/cmartinezBoada/Neighborhood-Map-Project.git).
+2. Open index.html in your browser.
 
 ## External Tools used :
 	Knockoutjs Framework
@@ -15,4 +15,12 @@ The project adds functionality to this map including highlighted locations and t
 ## Features :
 1. It shows my favorite places in Paris 19eme district
 2. User can also see the Street View of that place on clicking on the marker
-3. You can also see the wikipedia article for some of these places. 
+3. You can also see the wikipedia article for some of these places.
+
+### References
+
+https://developers.google.com/maps/documentation/javascript/
+
+https://www.w3schools.com/
+
+https://stackoverflow.com
