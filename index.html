@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Paris 19eme Neighborhood Map</title>
+  <script src='js/jquery-3.3.1.min.js'></script>
+  <script src="js/knockout-3.4.2.js"></script>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div id="container">
+        <div id="state">
+            <h1 data-bind="text: cityName"></h1>
+        </div>
+        <div id="menu">
+            <div id="content">
+                <div id="listItems">
+                    <h2 data-bind="text: listTitle"></h2>
+                    <ul data-bind="foreach: locationNames">
+                        <li data-bind="text: $data , click: $parent.animateMarker"></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="map"></div>
+            <script src="./js/app.js"></script>
+        </div>
+    </div>
+    <script src="js/app.js"></script>
+    <script async defer
+        src=
+        "https://maps.googleapis.com/maps/api/js?libraries=places,geometry,drawing&key=AIzaSyCCs797k0ixx83foHQcIGiuNK3_LmEPerE&v=3&callback=initMap"   " async defer onerror="mapError()"">
+    </script>
+
+  </body>
+</html>
